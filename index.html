@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="js/script.js"></script>
+    <style> 
+        button{
+            
+            background-color: aquamarine;
+            border-radius: 12px;
+            width: 100px;
+            height: 50px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 14px;
+            
+        }
+
+        div{
+            gap: 25px;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="playGame()">Play Round</button>
+    <div>
+        <button onclick="buttonAction()">Play Round</button>
+        <button onclick="reset()">Reset</button>
+    </div>
 </body>
 </html>
